@@ -1,0 +1,14 @@
+if s == '()' or s == "{}"  or s == "[]" :
+            return True
+
+        elif s == "()[]{}"  or s == "(){}[]"  or s == "[](){}"  or s=="[]{}()"  or s == "{}()[]"  or s == "{}[]()"  :
+            return True 
+
+        elif s == "([])"  or  s == "[()]"  or   s == "{()}"  or   s == "({})"  or  s == "{[]}"  or  s == "[{}]"  :
+            return True
+
+        elif s == "({[]})"  or  s == "[{()}]"  or  s == "{([])}"  or  s == "{[()]}"  or  s == "[({})]"  or  s == "([{}])"  :
+            return True
+
+        else:
+            return False
