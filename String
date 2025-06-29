@@ -1,0 +1,13 @@
+print('Bh' in 'Bhavya')
+print('Bh' not in 'Bhavya' )
+print('bh' not in 'Bhavya' )
+
+
+# string repetition operator
+
+print("Bhavya \n" * 3)
+print(100* "Bhavya ")
+print()
+print(100* "Bhavya \n")
+
+#   string * n    or    n * string
