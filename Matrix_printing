@@ -1,0 +1,16 @@
+r = int(input("Enter no. of rows : "))
+c = int(input("Enter no. of columns : "))
+
+E = input("Enter elemnts: ").split()
+if len(E) == r*c:
+    j = 0
+    for i in range(0,len(E)):
+        j = j + 1
+        if j <= c :
+            print(E[i],end=" ")
+        else:
+            print()
+            print(E[i],end=" ")
+            j = 1
+else :             
+    print("INVALID !!")
