@@ -1,0 +1,7 @@
+arr = list(map(int,input().split()))
+n = len(arr)
+stack=[]
+for i in range(0,n):
+    x = arr.pop()
+    stack.append(x)
+print(stack)
