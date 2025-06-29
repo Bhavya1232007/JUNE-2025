@@ -1,0 +1,9 @@
+
+# Take price and tax and display total price
+
+price=float(input("Enter price: "))
+tax=price*15/100
+net_price=price + tax
+print(f'PRICE= {price:.2f}')
+print(f'TAX= {tax:.2f}')
+print(f'TOTAL= {net_price:.2f}')
